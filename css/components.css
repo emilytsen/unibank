@@ -1,12 +1,11 @@
 .btn{
     display: inline-block;
-    height: 40px;
+    line-height: 40px;
     padding: 0px 24px;
     border-radius: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    border: none;
     color: #818fbf;
     background-color: white;
 }

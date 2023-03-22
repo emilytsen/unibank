@@ -1,0 +1,68 @@
+.s-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.s-hero .container .text{
+    width: 100%;
+    max-width: 600px;
+}
+
+.s-hero .container h5{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    color: #F1D302;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    
+    
+    background: rgba(241, 211, 2, 0.06);
+    border-radius: 32px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.s-hero .container .text .title h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    position: relative;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         h
+    width: 600px;
+    z-index: 1;
+    /* or 70px */
+
+
+    color: #0D1644;
+}
+.s-hero .container .text .title img{
+    position: absolute;
+    top: 350px;
+    left: 55.27px;
+    bottom: 34.18px;
+    z-index: 0;
+}
+
+.s-hero .container .text p{
+    width: 100%;
+    max-width: 490px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -1px;
+    color: #b0afb7;
+    margin-bottom: 32px;
+}
